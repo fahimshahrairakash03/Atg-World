@@ -1,0 +1,54 @@
+.card-collection {
+  margin-right: 110px;
+  margin-left: 80px;
+}
+.card {
+  position: relative;
+  margin-bottom: 16px;
+  width: 692px;
+
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+.card-heading {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 134.17%;
+  /* or 30px */
+
+  color: #000000;
+}
+.card-details {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 134.17%;
+  /* or 25px */
+
+  color: #5c5c5c;
+}
+.card-user-profile {
+  margin-top: 40px;
+}
+.card-img {
+  width: 48px;
+  height: 48px;
+}
+.card-user {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  margin-left: 10px;
+  margin-top: 10px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.btn-img {
+  margin-top: 16px;
+  z-index: 1;
+}
+.cardmenu {
+  position: absolute;
+  left: 500px;
+}
