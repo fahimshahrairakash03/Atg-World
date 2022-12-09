@@ -4,10 +4,12 @@ import Recommend from "./Recommend";
 
 const Body = () => {
   return (
-    <div className="container">
+    <div className="lg:container ">
       <div className="d-flex">
         <ArticleCard></ArticleCard>
-        <Recommend></Recommend>
+        <div className="recommend">
+          <Recommend></Recommend>
+        </div>
       </div>
     </div>
   );

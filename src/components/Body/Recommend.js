@@ -6,7 +6,7 @@ import excuse from "../../asset/excuse.png";
 
 const Recommend = () => {
   return (
-    <div>
+    <div className="recommend">
       <div className="d-flex ">
         <div>
           <img src={pin} alt="" />

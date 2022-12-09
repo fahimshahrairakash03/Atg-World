@@ -52,3 +52,21 @@
   position: absolute;
   left: 500px;
 }
+
+@media screen and (max-width: 740px) {
+  .card {
+    width: 360px;
+  }
+  .btn-img {
+    width: 100%;
+  }
+  .card3-time {
+    width: 100%;
+  }
+  .btn-img2 {
+    width: 100%;
+  }
+  .company {
+    width: 100%;
+  }
+}

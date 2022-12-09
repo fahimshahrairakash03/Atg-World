@@ -85,7 +85,7 @@ const ArticleCard = () => {
             </div>
             <img className="cardmenu" src={cardMenu} alt="" />
 
-            <img src={time} alt="" />
+            <img className="card3-time" src={time} alt="" />
             <br />
             <img className="btn-img" src={btn} alt="" />
 
@@ -113,9 +113,9 @@ const ArticleCard = () => {
               <img src={dot} alt="" />
             </div>
             <div>
-              <img src={card4details} alt="" />
+              <img className="company" src={card4details} alt="" />
             </div>
-            <img className="mt-3" src={card4btn} alt="" />
+            <img className="btn-img2 mt-3" src={card4btn} alt="" />
 
             <div className="user-details d-flex justify-content-between card-user-profile  align-items-center">
               <div className="d-flex align-items-center ">

@@ -1,10 +1,18 @@
 .App {
   text-align: center;
 }
+.mainapp {
+  position: relative;
+}
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.edit-btn {
+  visibility: hidden;
+  position: sticky;
+  margin-left: 300px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -34,5 +42,10 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@media screen and (max-width: 740px) {
+  .edit-btn {
+    visibility: visible;
   }
 }

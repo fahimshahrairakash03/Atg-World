@@ -1,9 +1,14 @@
 import React from "react";
 import "./Menu.css";
+import filter from "../../asset/filter.png";
 
 const Menu = () => {
   return (
     <div>
+      <div className="mini-menu d-flex justify-content-between align-items-center">
+        <p>Posts(368)</p>
+        <img src={filter} alt="" />
+      </div>
       <div className="container menu-bar  d-flex justify-content-between align-items-center">
         <div className="menu d-flex">
           <p className="selected">All Posts(32)</p>

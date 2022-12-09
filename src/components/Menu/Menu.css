@@ -8,6 +8,9 @@
 .menu p {
   margin: 0 20px;
 }
+.mini-menu {
+  visibility: hidden;
+}
 .selected {
   width: 93px;
   height: 21px;
@@ -54,4 +57,26 @@
   border: 1px solid #e0e0e0;
   margin-top: 20px;
   margin-bottom: 28px;
+}
+
+@media screen and (max-width: 740px) {
+  .mini-menu {
+    visibility: visible;
+    padding: 16px;
+  }
+  .selected {
+    display: none;
+  }
+  .un-select {
+    display: none;
+  }
+  .btn-1 {
+    display: none;
+  }
+  .btn-2 {
+    display: none;
+  }
+  .underline {
+    display: none;
+  }
 }
