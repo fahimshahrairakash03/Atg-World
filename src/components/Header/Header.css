@@ -39,7 +39,7 @@
   color: rgba(47, 108, 229, 1);
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 900px) {
   .header {
     display: none;
   }

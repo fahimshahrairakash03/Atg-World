@@ -17,6 +17,7 @@ import cardMenu from "../../asset/card3Menu.png";
 import job from "../../asset/job.png";
 import card4details from "../../asset/card4details.png";
 import card4btn from "../../asset/card4btn.png";
+import circle from "../../asset/circle.png";
 
 const ArticleCard = () => {
   return (

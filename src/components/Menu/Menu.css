@@ -59,7 +59,7 @@
   margin-bottom: 28px;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 900px) {
   .mini-menu {
     visibility: visible;
     padding: 16px;

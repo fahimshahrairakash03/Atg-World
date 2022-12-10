@@ -1,7 +1,8 @@
 .card-collection {
   margin-right: 110px;
-  margin-left: 80px;
+  margin-left: 200px;
 }
+
 .card {
   position: relative;
   margin-bottom: 16px;
@@ -53,7 +54,7 @@
   left: 500px;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 900px) {
   .card {
     width: 360px;
   }
@@ -68,5 +69,12 @@
   }
   .company {
     width: 100%;
+  }
+  .cardmenu {
+    position: absolute;
+    left: 180px;
+  }
+  .card-collection {
+    margin-left: 15px;
   }
 }
