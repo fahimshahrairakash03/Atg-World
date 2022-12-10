@@ -6,9 +6,9 @@ const Home = () => {
   return (
     <div className="home">
       <img className="banner-img" src={banner} alt="" />
-
       <p className="banner-text1">Computer Engineering</p>
       <p className="banner-text2">142,765 Computer Engineers follow this</p>
+      <button className="join">Join Group</button>
     </div>
   );
 };

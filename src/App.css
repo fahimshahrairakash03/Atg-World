@@ -8,6 +8,7 @@
   position: fixed;
   margin-left: 300px;
   z-index: 2;
+  display: none;
 }
 
 .App-logo {
@@ -42,5 +43,11 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .edit-btn1 {
+    display: block;
   }
 }

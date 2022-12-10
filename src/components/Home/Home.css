@@ -1,10 +1,13 @@
 .home {
   position: relative;
 }
+
 .edit-btn {
   display: none;
 }
+
 .banner-img {
+  position: relative;
   max-width: 1440px;
   height: 440px;
   background: linear-gradient(
@@ -13,11 +16,26 @@
     rgba(0, 0, 0, 0.6) 100%
   );
 }
+.join {
+  position: absolute;
+
+  top: 100;
+  right: 0;
+  width: 76px;
+  height: 28px;
+
+  border: 0.8px solid #ffffff;
+  border-radius: 4px;
+  opacity: 0.5;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
 .banner-text1 {
   position: absolute;
-  bottom: 200;
-}
-.banner-text1 {
+  top: 100;
+  left: 0;
   font-weight: 700;
   font-size: 17px;
   line-height: 22px;
@@ -26,8 +44,10 @@
   color: #ffffff;
 }
 .banner-text2 {
+  position: absolute;
   font-weight: 400;
   font-size: 12px;
+  top: 200;
   line-height: 16px;
   /* identical to box height */
 

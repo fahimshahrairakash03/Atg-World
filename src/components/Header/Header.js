@@ -2,10 +2,14 @@ import React from "react";
 import logo from "../../asset/logo.png";
 import Modal from "../Modal/Modal";
 import "./Header.css";
+import mininav from "../../asset/mini-nav.png";
 
 const Header = () => {
   return (
     <div>
+      <div className="mini-nav">
+        <img src={mininav} alt="" />
+      </div>
       <nav class="header navbar ">
         <div class="container d-flex align-items-center">
           <a className="navbar-brand" href="#">
